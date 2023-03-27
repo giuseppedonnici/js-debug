@@ -24,19 +24,17 @@ for (let i = 0; i < 5; i++) {
 /*
 // ESERCIZIO 2
 function addIfEven(num) {
-    let sum;
     if (num % 2 === 0) {
-        sum = num + 5;
+        return num + 5;
     }
     return sum;
 }
 
 console.log(addIfEven(2))
 
-// 1- Che cosa fa questo codice? Inserito un numero verifica se è pari e se lo è viene sommato a 5
+// 1- Che cosa fa questo codice? Inserito un numero verifica se è pari e se lo è viene sommato a 5 altrimenti restituisce lo stesso numero
 // 2- Sono presenti errori di sintassi? Sì la condizione num % 2 === 0 perchè il resto della divisione dev'essere "identico" a 0
-// 3- Sono presenti errori logici? Sì, non era stata dichiarata all'interno della funzione una variabile di appoggio (sum), ci sono due return e manca 
-// l'invocazione della funzione
+// 3- Sono presenti errori logici? Sì, l'invocazione della funzione
 
 
 */
@@ -49,7 +47,7 @@ function loopToFive() {
     }
 }
 
-console.log(loopToFive());
+loopToFive();
 
 // 1- Che cosa fa questo codice? Cicla da 0 a 5
 // 2- Sono presenti errori di sintassi? Sì, non viene invocata la funzione e all'interno del ciclo ci sono le virgole anzichè ;
